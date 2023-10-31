@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Random-Task</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="content">
+      <div class="title">
+        <p>Random Task</p>
+      </div>
+
+      <div class="select">
+        <select id="tasks" default>
+          <option value="default" disabled selected>Select a task</option>
+          <option value="number">Random Number</option>
+          <option value="color">Random color</option>
+          <option value="password">Random Password</option>
+          <option value="country">Random Country</option>
+          <option value="word">Random Word</option>
+        </select>
+
+        <div class="output-space">
+          <div class="range">
+            <div class="range-1">
+              <input type="number" id="range1" value="0" />
+            </div>
+            <div class="range-2">
+              <input type="number" id="range2" value="99" />
+            </div>
+          </div>
+          <div class="output">0</div>
+
+          <div class="generate">
+            <button id="generate_btn">Generate</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

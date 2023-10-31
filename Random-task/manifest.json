@@ -1,0 +1,26 @@
+{
+  "manifest_version": 3,
+  "name": "Random Task",
+  "version": "1.0",
+  "description": "Generate random country names,colors,password etc",
+  "permissions": ["activeTab", "tabs"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_icon": {
+      "16": "circle.png",
+      "48": "circle48.png",
+      "128": "circle128.png"
+    }
+  },
+  "options_ui": {
+    "page": "options.html",
+    "open_in_tab": true
+  },
+  "icons": {
+    "16": "circle.png",
+    "48": "circle48.png",
+    "128": "circle128.png"
+  }
+}
